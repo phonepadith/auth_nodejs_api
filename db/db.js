@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-const URL = "mongodb+srv://adminmongo:k7807907@cluster0-1uldw.gcp.mongodb.net/test?retryWrites=true&w=majority";
-const JWT_KEY = "WinterIsComingGOT2019";
+const URL = "your_mongodb_altas";
+const JWT_KEY = "your_JWT_KEY";
 
 mongoose.connect(URL, {
     useNewUrlParser: true,
